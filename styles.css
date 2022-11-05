@@ -1,0 +1,55 @@
+.main-body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: rgb(130, 126, 126);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 10px ridge rgb(57, 55, 55);
+  border-radius: 15px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.navlinks ul {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: rgb(92, 92, 92);
+  border: 3mm ridge rgb(44, 42, 42);
+  border-radius: 15px;
+  width: 100%;
+}
+
+.navlinks button {
+  background: rgb(169, 161, 161);
+  float: left;
+  width: 150px;
+  height: 50px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.navlinks button:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 0px 5px rgb(255, 255, 255);
+  transition: all 0.5s ease;
+}
