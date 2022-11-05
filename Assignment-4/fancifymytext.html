@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Fancify Shamcify</title>
-    <script src="fancifymytext.js"></script>
+    <script src="./fancymytext.js"></script>
   </head>
   <body>
     <h1>Fancify my Text</h1>
@@ -18,9 +18,11 @@
         <input type="radio" name="switch" id="fancy" onchange="fancy();" />
         FancyShmancy
         <br />
-        <input type="radio" name="switch" onchange="fancy();" /> BoringBetty
+        <input type="radio" name="switch" id="boring" onchange="boring();" />
+        BoringBetty
       </div>
       <button onclick="moo();">Moo</button>
+      <button onclick="reset();">Reset</button>
     </fieldset>
   </body>
 </html>
